@@ -1,8 +1,9 @@
 # Digital-electronics-1
 
-##nadpis druhé úrovně
+## [*Brno University of Technology*]
 
+### Software
 
-```vhdl
+* [EDA Playground](https://www.edaplayground.com/)
+* [git](https://git-scm.com/)
 
-```
