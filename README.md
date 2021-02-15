@@ -1,6 +1,8 @@
 # Digital-electronics-1
 
-## [*Brno University of Technology*]
+## *Brno University of Technology*
+
+#### Link to [*Digital Electronics 1*](https://www.vutbr.cz/en/students/courses/detail/224131) at website **VUT Brno**
 
 ### Software
 
