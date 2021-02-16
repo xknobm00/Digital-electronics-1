@@ -8,6 +8,6 @@
 
 Link to EDA PlayGround [De Morgan's laws](https://www.edaplayground.com/x/fDPy)
 
-  [De Morgan's laws simulation in EDA PlayGround](IMAGES/Dem_law.png)
+  [De Morgan's laws simulation in EDA PlayGround](IMAGES/DeM_law.png)
 
 
