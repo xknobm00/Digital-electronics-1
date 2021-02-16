@@ -73,7 +73,10 @@ begin
     x4_o	<= a_i and a_i and a_i;
 
 end architecture dataflow;
+```
 
 ### Verification of Distributive laws.
 
-Link to EDA PlayGround [Distributive laws](https://www.edaplayground.com/x/fDPy)
+Link to EDA PlayGround [Distributive laws](https://www.edaplayground.com/x/CqGt)
+
+![Distributive laws simulation in EDA PlayGround](IMAGES/Dis_law.png)
