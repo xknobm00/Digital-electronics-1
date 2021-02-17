@@ -23,14 +23,14 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-```
+
 **equals_SoP** = (/b1*/b0*/a1*/a0)+(/b1*b0*/a1*a0)+(b1*/b0*a1*/a0)+(b1*b0*a1*a0)
 **less_PoS** = (b1+b0+a1+a0)*(b1+/b0+a1+a0)*(b1+/b0+a1+/a0)*(/b1+b0+a1+a0)*(/b1+b0+a1+/a0)*(/b1+b0+/a1+a0)*(/b1+/b0+a1+a0)*(/b1+/b0+a1+/a0)*(/b1+/b0+/a1+a0)*(/b1+/b0+/a1+/a0)
 **greater_PoS** = (b1 + b0 + a1 + a0) * (b1 + b0 + a1 + /a0) * (b1 + /b0 + /a1 + a0) * (b1 + b0 + /a1 + /a0) * (b1 + /b0 + a1 + /a0) * 
             (b1 + /b0 + a1 + /a0) * (b1 + /b0 + /a1 + /a0) * (/b1 + b0 + /a1 + a0) * (/b1 + b0 + /a1 + /a0) * (/b1 + /b0 + /a1 + /a0)
 
 *" /" ... is negation*
-```
+
 
 ## Part 2: Logic function minimization
 
