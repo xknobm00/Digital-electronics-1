@@ -23,7 +23,21 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-**equals_SoP** = (_b1*_b0*_a1*_a0)+(_b1*b0*_a1*a0)+(b1*_b0*a1*_a0)+(b1*b0*a1*a0)
-**less_PoS** = (b1+b0+a1+a0)*(b1+_b0+a1+a0)*(b1+_b0+a1+_a0)*(_b1+b0+a1+a0)*(_b1+b0+a1+_a0)*(_b1+b0+_a1+a0)*(_b1+_b0+a1+a0)*(_b1+_b0+a1+_a0)*(_b1+_b0+_a1+a0)*(_b1+_b0+_a1+_a0)
+```
+**equals_SoP** = (/b1*/b0*/a1*/a0)+(/b1*b0*/a1*a0)+(b1*/b0*a1*/a0)+(b1*b0*a1*a0)
+**less_PoS** = (b1+b0+a1+a0)*(b1+/b0+a1+a0)*(b1+/b0+a1+/a0)*(/b1+b0+a1+a0)*(/b1+b0+a1+/a0)*(/b1+b0+/a1+a0)*(/b1+/b0+a1+a0)*(/b1+/b0+a1+/a0)*(/b1+/b0+/a1+a0)*(/b1+/b0+/a1+/a0)
+**greater_PoS** = (b1 + b0 + a1 + a0) * (b1 + b0 + a1 + /a0) * (b1 + /b0 + /a1 + a0) * (b1 + b0 + /a1 + /a0) * (b1 + /b0 + a1 + /a0) * 
+            (b1 + /b0 + a1 + /a0) * (b1 + /b0 + /a1 + /a0) * (/b1 + b0 + /a1 + a0) * (/b1 + b0 + /a1 + /a0) * (/b1 + /b0 + /a1 + /a0)
 
-*" _" ... is negation*
+*" /" ... is negation*
+```
+
+## Part 2: Logic function minimization
+
+Use K-maps to create a simplified SoP form of the "greater than" function and a PoS form of the "less than" function.
+
+![Karnaugh map for "greater" function](IMAGES/1.jpg)
+
+
+
+
