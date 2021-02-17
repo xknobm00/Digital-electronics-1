@@ -36,10 +36,13 @@
 
 Use K-maps to create a simplified SoP form of the "greater than" function and a PoS form of the "less than" function.
 
+### Karnaugh map for "greater" function
 ![Karnaugh map for "greater" function](IMAGES/1.jpg)
 
+### Karnaugh map for "equals" function
 ![Karnaugh map for "equals" function](IMAGES/2.jpg)
 
+### Karnaugh map for "less" function
 ![Karnaugh map for "less" function](IMAGES/3.jpg)
 
 
