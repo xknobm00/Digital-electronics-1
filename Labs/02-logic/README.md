@@ -256,7 +256,7 @@ Finding VCD file...
 Done
 ```
 
-[Link to your public EDA Playground example](https://www.edaplayground.com/x/nGQ_)
+[Link to public EDA Playground example](https://www.edaplayground.com/x/nGQ_)
 
 
 
