@@ -6,7 +6,9 @@
 
 
 ### 2. Two-bit wide 4-to-1 multiplexer
+
        * Listing of VHDL architecture from source file `mux_2bit_4to1.vhd`
+       
 ```vhdl
 ------------------------------------------------------------------------
 --
@@ -59,6 +61,7 @@ end architecture Behavioral;
 ```
 
        * Listing of VHDL stimulus process from testbench file `tb_mux_2bit_4to1.vhd`
+       
 ```vhdl
 ------------------------------------------------------------------------
 --
@@ -140,5 +143,9 @@ begin
         s_sel <= "11"; wait for 100 ns;        
         
 ```
+
        * Screenshot with simulated time waveforms; always put all inputs and outputs
 
+![Screenshot with simulated time waveforms](IMAGES/simulated.jpg)
+
+### 3. A Vivado tutorial
