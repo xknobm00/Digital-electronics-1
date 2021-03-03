@@ -24,6 +24,17 @@ set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports { f_o[0]
 set_property -dict { PACKAGE_PIN K15   IOSTANDARD LVCMOS33 } [get_ports { f_o[1] }]; #IO_L24P_T3_RS1_15 Sch=led[1]
 
 ```
+
+       *Architecture
+       
+```vhdl
+architecture Behavioral of mux_2bit_4to1 is
+begin
+    f_o   <= a_i when (sel_i = "00") else
+             b_i when (sel_i = "01") else
+             c_i when (sel_i = "10") else
+             d_i;
+```
 ![Figure with connection of 16 slide switches and 16 LEDs on Nexys A7 board](IMAGES/schema.jpg)
 
 
@@ -171,3 +182,14 @@ begin
 ![Screenshot with simulated time waveforms](IMAGES/simulated.jpg)
 
 ### 3. A Vivado tutorial
+
+#### Step 1: project creation and in this step add source file
+![project creation](IMAGES/1.jpg)
+
+#### Step 2: add testbench file
+![testbench file](IMAGES/2.jpg)
+
+#### Step 3: running simulation
+![running simulation](IMAGES/3.jpg)
+
+
