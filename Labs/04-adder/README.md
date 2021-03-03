@@ -2,7 +2,7 @@
 
 ## 1 Preparation tasks (done before the lab at home)
 
-Decoder truth table for common anode 7-segment display.
+Complete the decoder truth table for common anode 7-segment display
 
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
