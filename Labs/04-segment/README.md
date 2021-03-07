@@ -2,7 +2,7 @@
 
 ## 1. Preparation tasks 
 
-Figure with connection of 7-segment displays on Nexys A7 board
+**Figure with connection of 7-segment displays on Nexys A7 board**
 ![Figure with connection of 7-segment displays on Nexys A7 board](IMAGES/schema.jpg)
 
 
@@ -168,6 +168,6 @@ p_stimulus : process
         
 ```
 
-Screenshot with simulated time waveforms
+**Screenshot with simulated time waveforms**
 
 ![Screenshot with simulated time waveforms](IMAGES/graf1.jpg)
