@@ -6,7 +6,7 @@ Figure with connection of 7-segment displays on Nexys A7 board
 ![Figure with connection of 7-segment displays on Nexys A7 board](IMAGES/schema.jpg)
 
 
-Complete the decoder truth table for common anode 7-segment display
+**Complete the decoder truth table for common anode 7-segment display**
 
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -30,7 +30,7 @@ Complete the decoder truth table for common anode 7-segment display
 
 ## 2. Seven-segment display decoder. Submit:
 
-Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting
+**Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting**
 
 ```vhdl
 library IEEE;
@@ -121,7 +121,7 @@ begin
 end Behavioral;
 ```
 
-Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting and asserts
+**Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting and asserts**
 
 ```vhdl
 p_stimulus : process
