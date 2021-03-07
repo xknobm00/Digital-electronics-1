@@ -177,7 +177,7 @@ p_stimulus : process
 ## 3. LED(7:4) indicators. Submit:
 
 **Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting**
-| **Hex** | **Inputs** | **LED[4]** | **LED[5]** | **LED[6]** | **LED[7]** |
+| **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 1 | 0 | 0 | 0 |
 | 1 | 0001 | 0 | 0 | 1 | 1 |
