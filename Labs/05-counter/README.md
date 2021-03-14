@@ -10,3 +10,8 @@ Calculate how many periods of clock signal with frequency of 100 MHz contain tim
 | 250ms | 25 000 000 | `x"17D_7840"` | `b"0001_0111_1101_0111_1000_0100_0000"` |
 | 500ms | 50 000 000 | `x"2FA_F080"` | `b"0010_1111_1010_1111_0000_1000_0000"` |
 | 1sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
+
+Figure with connection of push buttons on Nexys A7 board
+
+![Figure with connection of push buttons on Nexys A7 board](IMAGES/schema.jpg)
+
