@@ -208,3 +208,6 @@ end architecture Behavioral;
 
 ```
 
+Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments
+
+![Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments](IMAGES/schema2.jpg)
