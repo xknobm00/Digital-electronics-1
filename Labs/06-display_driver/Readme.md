@@ -237,4 +237,7 @@ begin
 
 end architecture Behavioral;
  ```
+## 3. Eight-digit driver
+   * Image of the driver schematic. The image can be drawn on a computer or by hand
 
+![Image of the driver schematic](IMAGES/schematic.jpg)
