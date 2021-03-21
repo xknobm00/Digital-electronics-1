@@ -165,10 +165,10 @@ begin
         
         wait for 600 ns;
         
-        s_data3_i     <= "0011";
+        s_data3_i     <= "0000";
         s_data2_i     <= "0001";
-        s_data1_i     <= "0100";
-        s_data0_i     <= "0111";
+        s_data1_i     <= "0000";
+        s_data0_i     <= "0001";
         
 
         report "Stimulus process finished. " severity note;
@@ -183,7 +183,7 @@ end architecture testbench;
 
    * Screenshot with simulated time waveforms; always display all inputs and outputs,
 
-![Screenshot with simulated time waveforms; always display all inputs and outputs](IMAGES/simulated1.jpg)
+![Screenshot with simulated time waveforms; always display all inputs and outputs](IMAGES/simulated.jpg)
 
    * Listing of VHDL architecture of the top layer.
 
