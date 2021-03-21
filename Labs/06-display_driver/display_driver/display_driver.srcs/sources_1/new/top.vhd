@@ -82,6 +82,26 @@ begin
             data3_i(1) => SW(13),
             data3_i(0) => SW(12),
             
+            data4_i(3) => SW(15),
+            data4_i(2) => SW(14),
+            data4_i(1) => SW(13),
+            data4_i(0) => SW(12),
+            
+            data5_i(3) => SW(15),
+            data5_i(2) => SW(14),
+            data5_i(1) => SW(13),
+            data5_i(0) => SW(12),
+            
+            data6_i(3) => SW(15),
+            data6_i(2) => SW(14),
+            data6_i(1) => SW(13),
+            data6_i(0) => SW(12),
+            
+            data7_i(3) => SW(15),
+            data7_i(2) => SW(14),
+            data7_i(1) => SW(13),
+            data7_i(0) => SW(12),
+            
             dig_o       => AN(4 - 1 downto 0),
             
             seg_o(0)    => CA,

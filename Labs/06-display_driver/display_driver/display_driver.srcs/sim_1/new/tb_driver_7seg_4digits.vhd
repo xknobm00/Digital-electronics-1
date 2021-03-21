@@ -38,6 +38,8 @@ architecture testbench of tb_driver_7seg_4digits is
      signal s_data1_i   : std_logic_vector(4-1 downto 0);
      signal s_data2_i   : std_logic_vector(4-1 downto 0);
      signal s_data3_i   : std_logic_vector(4-1 downto 0);
+
+     
      signal s_dp_i      : std_logic_vector(4-1 downto 0);
      
      signal s_dp_o      : std_logic;
@@ -58,6 +60,7 @@ begin
              data1_i  =>  s_data1_i,
              data2_i  =>  s_data2_i,
              data3_i  =>  s_data3_i,
+
          
              dp_i     =>  s_dp_i,
 
