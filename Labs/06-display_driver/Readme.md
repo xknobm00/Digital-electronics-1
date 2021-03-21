@@ -181,11 +181,9 @@ end architecture testbench;
 ```
 
 
-
-
    * Screenshot with simulated time waveforms; always display all inputs and outputs,
 
-
+![Screenshot with simulated time waveforms; always display all inputs and outputs](IMAGES/simulated1.jpg)
 
    * Listing of VHDL architecture of the top layer.
 
