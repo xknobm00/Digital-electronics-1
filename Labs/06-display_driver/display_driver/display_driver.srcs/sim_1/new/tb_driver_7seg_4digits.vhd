@@ -118,10 +118,10 @@ begin
         
         wait for 600 ns;
         
-        s_data3_i     <= "0011";
+        s_data3_i     <= "0000";
         s_data2_i     <= "0001";
-        s_data1_i     <= "0100";
-        s_data0_i     <= "0111";
+        s_data1_i     <= "0000";
+        s_data0_i     <= "0001";
         
 
         report "Stimulus process finished. " severity note;
