@@ -4,7 +4,9 @@
 
 1. Preparation tasks (done before the lab at home). 
     * Characteristic equations and completed tables for D, JK, T flip-flops.
-     \begin{align*}
+   
+<!--
+\begin{align*}
     q_{n+1}^D =&~ \\
     q_{n+1}^{JK} =&\\
     q_{n+1}^T =&\\
