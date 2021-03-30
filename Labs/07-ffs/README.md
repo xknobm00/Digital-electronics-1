@@ -310,15 +310,17 @@
         wait for 3ns;
         report "assert" severity note;        
         wait;
-        
-    ```
+ ```
     
     
 ### Screenshot, with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
+
 ![Screenshot with simulated time waveforms](IMAGES/schema2.jpg)
 
 
 
 ## 4. Shift register.
 ### Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
+
+![Screenshot with simulated time waveforms](IMAGES/schema3.jpg)
 
