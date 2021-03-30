@@ -243,7 +243,7 @@
     
 ### Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts,
     
-    ``` vhdl
+``` vhdl
      p_reset_gen : process 
     begin
         s_arst <= '0';
@@ -310,6 +310,7 @@
         wait for 3ns;
         report "assert" severity note;        
         wait;
+        
     ```
     
     
