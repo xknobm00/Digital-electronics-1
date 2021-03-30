@@ -310,8 +310,7 @@
         wait for 3ns;
         report "assert" severity note;        
         wait;
-        
-    ```
+ ```
     
     
 ### Screenshot, with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
