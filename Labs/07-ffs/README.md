@@ -315,6 +315,7 @@
     
     
 ### Screenshot, with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
+
 ![Screenshot with simulated time waveforms](IMAGES/schema2.jpg)
 
 
