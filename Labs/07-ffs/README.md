@@ -39,7 +39,7 @@
     
 
 2. D latch.
-###VHDL code listing of the process `p_d_latch` with syntax highlighting
+### VHDL code listing of the process `p_d_latch` with syntax highlighting
     
 ``` vhdl
     p_d_latch : process (d, arst, en)
@@ -56,7 +56,7 @@
     end process p_d_latch;
 ```
 
-###Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch` file with syntax highlighting and asserts,
+### Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch` file with syntax highlighting and asserts,
     
 ``` vhdl
     p_reset_gen : process
@@ -176,7 +176,7 @@
         end process p_stimulus;
 ```
        
-###Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
+### Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
  
 ![Screenshot with simulated time waveforms](IMAGES/schema1.jpg)
 
