@@ -2,7 +2,7 @@
 
 ## Lab assignment
 
-1. Preparation tasks (done before the lab at home). 
+## 1. Preparation tasks (done before the lab at home). 
     * Characteristic equations and completed tables for D, JK, T flip-flops.
    
    **q** n+1 (D) = d
@@ -38,7 +38,7 @@
    | ![rising](IMAGES/eq_uparrow.png) | 1 | 1 | 0 | toggle |
     
 
-2. D latch.
+## 2. D latch.
 ### VHDL code listing of the process `p_d_latch` with syntax highlighting
     
 ``` vhdl
@@ -180,7 +180,7 @@
  
 ![Screenshot with simulated time waveforms](IMAGES/schema1.jpg)
 
-3. Flip-flops.
+## 3. Flip-flops.
     * VHDL code listing of the processes `p_d_ff_arst`, `p_d_ff_rst`, `p_jk_ff_rst`, `p_t_ff_rst` with syntax highlighting,
     
     
@@ -192,6 +192,6 @@
 
 
 
-4. Shift register.
+## 4. Shift register.
     * Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
 
