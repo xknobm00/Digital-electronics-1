@@ -322,3 +322,5 @@
 ## 4. Shift register.
 ### Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
 
+![Screenshot with simulated time waveforms](IMAGES/schema3.jpg)
+
