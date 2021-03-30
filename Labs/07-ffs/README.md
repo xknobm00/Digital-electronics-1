@@ -201,13 +201,120 @@
 ```
  
  
+ `p_d_ff_rst`
+ 
+ ``` vhdl
+    p_d_ff_rst : process (clk, rst)
+    begin
+        if (rst = '1') then
+            q       <= '0';
+            q_bar   <= '1';
+            
+        elsif rising_edge(clk) then
+            q       <= d;
+            q_bar   <= not d;
+            
+        end if;
+    end process p_d_ff_rst;
+```
 
+`p_jk_ff_rst`
+
+``` vhdl
+    p_jk_ff_rst : process (clk)
+        begin
+            if rising_edge(clk) then
+                if (rst = '1') then
+                    s_q <= '0';
+                    else
+                        if (j = '0' and k = '0') then
+                            s_q <= s_q;
+                        elsif (j = '0' and k = '1') then
+                            s_q <= '0';
+                        elsif (j = '1' and k = '0') then
+                            s_q <= '1';
+                        elsif  (j = '1' and k = '1') then
+                            s_q <= not s_q;
+                        end if;
+                    end if;
+                end if;
+    end process p_jk_ff_rst;
+```
     
 ### Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts,
     
+    ``` vhdl
+     p_reset_gen : process 
+    begin
+        s_arst <= '0';
+        wait for 53 ns;
+        
+        -- Reset activated
+        s_arst <= '1';
+        wait for 15 ns;
+
+        -- Reset deactivated
+        s_arst <= '0';
+                
+        wait;
+    end process p_reset_gen;
+    
+
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+        
+        
+        wait for 10 ns; 
+        s_d <= '1';
+       
+        wait for 3 ns;
+        assert(s_q = '0' and s_q_bar = '1') 
+        report "assert" severity error;
+        
+        wait for 7 ns; 
+        s_d <= '0';
+        assert(s_q = '0' and s_q_bar = '1') 
+        report "assert" severity error;
+        
+        wait for 10 ns; 
+        s_d <= '1';
+        wait for 10 ns; 
+        s_d <= '0';
+        
+        wait for 3 ns; 
+        s_d <= '1';
+        assert(s_q = '0' and s_q_bar = '1') 
+        report "assert" severity error;
+        
+        wait for 7 ns; 
+        s_d <= '0';
+        wait for 10 ns; 
+        s_d <= '0';
+        
+        wait for 3 ns;
+        assert(s_q = '1' and s_q_bar = '0') 
+        report "assert" severity error;
+        
+        wait for 7 ns; 
+        s_d <= '1';
+        wait for 10 ns; 
+        s_d <= '1';
+        wait for 10 ns; 
+        s_d <= '0';
+        wait for 10 ns; 
+        s_d <= '1';
+        wait for 10 ns; 
+        s_d <= '0';
+ 
+        wait for 3ns;
+        report "assert" severity note;        
+        wait;
+    ```
+    
     
 ### Screenshot, with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
-
+![Screenshot with simulated time waveforms](IMAGES/schema2.jpg)
 
 
 
