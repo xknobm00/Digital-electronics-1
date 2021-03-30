@@ -16,8 +16,8 @@
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](IMAGES/eq_uparrow.png) | 0 | 0 | 0  | no change |
    | ![rising](IMAGES/eq_uparrow.png) | 0 | 1 | 0 | change |
-   | ![rising](IMAGES/eq_uparrow.png) | 1 | 1 | 1 | no change |
    | ![rising](IMAGES/eq_uparrow.png) | 1 | 0 | 1 | change |
+   | ![rising](IMAGES/eq_uparrow.png) | 1 | 1 | 1 | no change |
 
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
