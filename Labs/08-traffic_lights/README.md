@@ -156,7 +156,7 @@
 
 ### Screenshot(s) of the simulation, from which it is clear that controller works correctly.
 
-
+![Screenshot(s) of the simulation, from which it is clear that controller works correctly](IMAGES/simulation1.jpg)
 
 
 ## 3. Smart controller
