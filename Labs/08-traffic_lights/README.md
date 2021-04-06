@@ -124,6 +124,36 @@
 
 ### Listing of VHDL code of combinatorial process `p_output_fsm` with syntax highlighting
 
+``` vhdl
+    p_output_fsm : process(s_state)
+    begin
+        case s_state is
+            when STOP1 =>
+                south_o    <=   "100";   -- Red (RGB = 100)
+                west_o     <=   "100";   -- Red (RGB = 100)
+            when WEST_GO =>
+                south_o    <=   "100";   -- Red (RGB = 010)
+                west_o     <=   "010";   -- Green (RGB = 010)
+            when WEST_WAIT =>
+                south_o    <=   "100";   -- Red (RGB = 100)
+                west_o     <=   "110";   -- Yellow (RGB = 110)                
+            when STOP2 =>
+                south_o    <=   "100";   -- Red (RGB = 100)
+                west_o     <=   "100";   -- Red (RGB = 100)
+            when SOUTH_GO =>
+                south_o    <=   "010";   -- Green (RGB = 010)
+                west_o     <=   "100";   -- Red   (RGB = 100)
+            when SOUTH_WAIT =>
+                south_o    <=   "110";   -- Yellow (RGB = 110)
+                west_o     <=   "100";   -- Red    (RGB = 100)     
+            when others =>
+                south_o    <=   "100";   -- Red
+                west_o     <=   "100";   -- Red
+        end case;
+    end process p_output_fsm;
+
+```
+
 ### Screenshot(s) of the simulation, from which it is clear that controller works correctly.
 
 
