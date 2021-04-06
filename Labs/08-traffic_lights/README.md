@@ -6,6 +6,7 @@
 
 ### Figure with connection of RGB LEDs on Nexys A7 board and completed table with color settings.
 
+![Figure with connection of RGB LEDs on Nexys A7 board](IMAGES/schemaLED.jpg)
 
 
 ## 2. Traffic light controller
