@@ -24,7 +24,7 @@
 
 ### State diagram
 
-![State diagram](IMAGES/statediagra.jpg)
+![State diagram](IMAGES/statediagram.jpg)
 
 ### Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting
 
